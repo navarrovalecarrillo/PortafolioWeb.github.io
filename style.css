@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+    color: #00796b;
+}
+
+header {
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #2E7663;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main {
+    padding-top: 80px;
+}
+
+#hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e0f7fa;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #00796b;
+}
+
+#servicios .servicio {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+#servicios .servicio i {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #00796b;
+}
+
+#portafolio .galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#portafolio .galeria a {
+    margin: 10px;
+}
+
+#portafolio .galeria img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, form input, form textarea, form button {
+    width: 80%;
+    max-width: 500px;
+    margin: 10px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #004d40;
+}
+
+.redes-sociales a {
+    color: #00796b;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.redes-sociales a:hover {
+    color: #004d40;
+}

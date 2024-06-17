@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Valeria Carrillo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#acerca-de">Acerca de mí</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="acerca-de">
+            <h2>Acerca de mí</h2>
+            <p>Mi nombre es Valeria Carrillo y tengo 19 años. Soy estudiante en la carrera de Animacion Digital y Diseño Interactivo. Dentro de esta (A mi parecer) me desenvuelvo mejor en las areas de creacion de UX/UI en prototipo por medio de Figma, la composicion en tomas de suspenso y creacion de ambiente, dibujos y creacion de guiones e historias.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="servicio">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Creacion de Guiones</h3>
+                <p>Creacion de historias y guiones, tomando en cuenta el detalle y el ambiente dentro de las escenas para lograr trnasmitir esas emociones a la audiencia.</p>
+            </div>
+            <div class="servicio">
+                <i class="fas fa-code"></i>
+                <h3>Prototipos UI</h3>
+                <p>Creacion de prototipos atra vez de figma, orientado a paginas web y aplicaciones moviles. Usando esta herramienta para mostrarle al usuario como se puede ver su idea. Tambien, y como acompañamiento a esta conocimiento de las pruebas A/B.</p>
+            </div>
+            <div class="servicio">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Dibujos/Ilustraciones</h3>
+                <p>Creacion de ilustraciones como retratos, personajes ficticios o fondos, que se puedan utilizar como decoracion, impresion o para alguna animacion, juego o mundo.</p>
+            </div>
+        </section>
+
+        <section id="portafolio">
+            <h2>Portafolio de Proyectos</h2>
+            <div class="galeria">
+                <a href="imagen1.jpg" data-fancybox="gallery">
+                    <img src="img/prototipos.jpeg" alt="Proyecto 1">
+                </a>
+                <a href="imagen2.jpg" data-fancybox="gallery">
+                    <img src="img/Brand.jpeg" alt="Proyecto 2">
+                </a>
+                <a href="" data-fancybox="gallery">
+                    <img src="img/Payasito.jpeg" alt="Proyecto 3">
+                </a>
+				<a href="" data-fancybox="gallery">
+                    <img src="img/kratos.jpeg" alt="Proyecto 4">
+                </a>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="redes-sociales">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</body>
+</html>
